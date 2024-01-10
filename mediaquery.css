@@ -1,0 +1,49 @@
+/* Versió Destok */
+@media (max-width: 1200px) {
+    body {
+      background-color:#D7D396;
+    }  
+  }
+
+
+/* Versió Tablet */
+@media (max-width:768px) {
+    body {
+        background-color:#C9D6D6;
+      }
+    .container2 {
+        background-color: #feff03;
+        display: flex;
+        flex-direction: column;
+    }
+    .contenido3 {
+        width: auto;
+    }
+    .contenido4 {
+        width: auto;
+    }
+}
+
+/* Versió Mobile */
+@media (max-width:576px) {
+    body {
+        background-color:#D65A7B;
+      } 
+    .contenido1 {
+        flex-direction: column;
+    }
+    .item1, .item2, .item3 {
+        width: auto;
+        margin: 5px;
+    }
+    .group {
+        flex-direction: column;
+    }
+    .group1, .group2 {
+        width: auto;
+        margin-bottom: -10px;
+    }
+    .item5, .item6, .item7, .item8 {
+        margin: 10px;
+    }
+}
